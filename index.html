@@ -21,46 +21,68 @@
         pic1.src = "style/loader.gif";
 
 
+
+
         //        $("#search-form").submit(function(event) {
         $(document).on("click", ".search", function(event) {
-            console.log("here");
-            //if the page refreshes when you submit the form use "preventDefault()" to force JavaScript to handle the form submission
-            event.preventDefault();
-            //get the value from the input box
-            var state = $("#state").val();
-            console.log("state", state);
-            var county = $("#county").val();
-            console.log("county", county);
 
-            console.log(countiesCodeObject);
+            //parse the countiesCodeObject array into and useful object
+            var statesCodeRebuild = {};
+            console.log(countiesCodeObject.length);
+            var currentState = "";
+            for (var counter = 0; counter < countiesCodeObject.length; counter++) {
+                //                                console.log(countiesCodeObject[counter]);
+                currentState = JSON.stringify(countiesCodeObject[counter][0]);
+                statesCodeRebuild[JSON.stringify(countiesCodeObject[counter][0])] = [
+                    countiesCodeObject[counter][1],
+                    countiesCodeObject[counter][3],
+                    countiesCodeObject[counter][2]
+                ];
+            }
+            //                statesCodeRebuild["counties"] = "here";
+            //                statesCodeRebuild[JSON.stringify(countiesCodeObject[counter][0])]["counties"] =
+            //[JSON.stringify(countiesCodeObject[counter][3])][countiesCodeObject[counter][2]];
+        }
+        console.log(statesCodeRebuild);
+
+
+        //if the page refreshes when you submit the form use "preventDefault()" to force JavaScript to handle the form submission
+        event.preventDefault();
+        //get the value from the input box
+        var state = $("#state").val();
+        //console.log("state", state);
+        var county = $("#county").val();
+        //            console.log("county", county);
+
+        //console.log(countiesCodeObject);
 
 
 
-            /* Update all the parameters for your API test*/
-            var params = {
-                get: 'MOVEDIN,MOVEDOUT,MOVEDNET,FULL1_NAME,FULL2_NAME',
-                for: 'county:*',
-                in: 'state:06'
-            };
-            var result = $.ajax({
-                    /* update API end point */
-                    url: "https://api.census.gov/data/2015/acs/flows",
-                    data: params,
-                    dataType: "json",
-                    /*set the call type GET / POST*/
-                    type: "GET"
-                })
-                /* if the call is successful (status 200 OK) show results */
-                .done(function(result) {
-                    /* if the results are meeningful, we can just console.log them */
-                    console.log(result);
-                })
-                /* if the call is NOT successful show errors */
-                .fail(function(jqXHR, error, errorThrown) {
-                    console.log(jqXHR);
-                    console.log(error);
-                    console.log(errorThrown);
-                });
+        /* Update all the parameters for your API test*/
+        var params = {
+            get: 'MOVEDIN,MOVEDOUT,MOVEDNET,FULL1_NAME,FULL2_NAME',
+            for: 'county:*',
+            in: 'state:06'
+        };
+        var result = $.ajax({
+                /* update API end point */
+                url: "https://api.census.gov/data/2015/acs/flows",
+                data: params,
+                dataType: "json",
+                /*set the call type GET / POST*/
+                type: "GET"
+            })
+            /* if the call is successful (status 200 OK) show results */
+            .done(function(result) {
+                /* if the results are meeningful, we can just console.log them */
+                //                    console.log(result);
+            })
+            /* if the call is NOT successful show errors */
+            .fail(function(jqXHR, error, errorThrown) {
+                console.log(jqXHR);
+                console.log(error);
+                console.log(errorThrown);
+            });
         });
 
     </SCRIPT>
