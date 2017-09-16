@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
-<HTML>
+<html>
 
-<HEAD>
-    <TITLE>TEST - Dynamic DropDowns with US States & Counties</TITLE>
+<head>
+    <TITLE>US Migrations by County</TITLE>
 
     <!-- JQuery JS -->
     <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
@@ -16,7 +16,7 @@
 
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <!-- Preload Images -->
-    <SCRIPT language="JavaScript">
+    <script language="JavaScript">
         pic1 = new Image(16, 16);
         pic1.src = "style/loader.gif";
 
@@ -42,8 +42,8 @@
             //                statesCodeRebuild["counties"] = "here";
             //                statesCodeRebuild[JSON.stringify(countiesCodeObject[counter][0])]["counties"] =
             //[JSON.stringify(countiesCodeObject[counter][3])][countiesCodeObject[counter][2]];
-        }
-        console.log(statesCodeRebuild);
+        })
+        //console.log(statesCodeRebuild);
 
 
         //if the page refreshes when you submit the form use "preventDefault()" to force JavaScript to handle the form submission
@@ -83,24 +83,23 @@
                 console.log(error);
                 console.log(errorThrown);
             });
-        });
 
-    </SCRIPT>
+    </script>
 
 
-    <STYLE TYPE="text/css">
+    <style type="text/css">
         #county_drop_down,
         #no_county_drop_down,
         #loading_county_drop_down {
             display: none;
         }
 
-    </STYLE>
+    </style>
 
 
-</HEAD>
+</head>
 
-<BODY>
+<body>
 
     <br />
 
@@ -180,6 +179,6 @@
         <button class="search" type="button">Search</button>
         <!--        <input type="submit" value="Submit">-->
     </form>
-</BODY>
+</body>
 
-</HTML>
+</html>
