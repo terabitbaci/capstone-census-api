@@ -6,14 +6,24 @@
     border: 1px solid lightgray;
 }
 
-header {}
+header {
+    margin-top: 50px;
+    background-color: lightyellow;
+}
 
 .logo {
-    margin-top: 50px;
+    /*    margin-top: 50px;*/
     margin-left: 50px;
-    height: 60px;
+    height: 90px;
     position: absolute;
     margin-bottom: 70px;
+}
+
+.banner {
+    /*    margin-top: 50px;*/
+    margin-left: 400px;
+    height: 90px;
+    text-align: center;
 }
 
 section {
