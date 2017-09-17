@@ -5,3 +5,17 @@
     box-sizing: border-box;
     border: 1px solid lightgray;
 }
+
+header {}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 60px;
+    position: absolute;
+    margin-bottom: 70px;
+}
+
+section {
+    margin-top: 200px;
+}

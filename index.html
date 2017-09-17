@@ -88,35 +88,41 @@
     </script>
 
 
-    <style type="text/css">
-        #county_drop_down,
-        #no_county_drop_down,
-        #loading_county_drop_down {
-            display: none;
-        }
-
-    </style>
+    <!--
+<style type="text/css">
+    #county_drop_down,
+    #no_county_drop_down,
+    #loading_county_drop_down {
+        display: none;
+    }
+</style>
+-->
 
 
 </head>
 
 <body>
-<main>
-    <header>
+    <main>
+        <header>
+            <img src="images/2000px-acs-logo.png" alt="US Census logo" class=logo>
 
-    </header>
-    <br />
+        </header>
 
-    <div align="center">Select a state and see how the county drop down changes based on your selection
+        <section>
+            <div align="center">Select a state and see how the county drop down changes based on your selection
 
 
-    </div><br />
-    <form name="form" id="search-form">
-        <table width="317" border="0" align="center">
-            <tr>
-                <td width="100">State</td>
-                <td width="217">
-                    <select id="state" name="state">
+            </div>
+
+        </section>
+
+        <br />
+        <form name="form" id="search-form">
+            <table width="317" border="0" align="center">
+                <tr>
+                    <td width="100">State</td>
+                    <td width="217">
+                        <select id="state" name="state">
                         <option value='AL'>Alabama</option>
                         <option value='AK'>Alaska</option>
                         <option value='AZ'>Arizona</option>
@@ -169,21 +175,21 @@
                         <option value='WI'>Wisconsin</option>
                         <option value='WY'>Wyoming</option>
                     </select>
-                </td>
-            </tr>
-            <tr>
-                <td height="33">County</td>
-                <td>
-                    <div id="county_drop_down"><select id="county" name="county"><option value="">County...</option></select></div>
-                    <span id="loading_county_drop_down"><img src="style/loader.gif" width="16" height="16" align="absmiddle">&nbsp;Loading...</span>
-                    <div id="no_county_drop_down">This state has no counties.</div>
-                </td>
-            </tr>
-        </table>
-        <button class="search" type="button">Search</button>
-        <!--        <input type="submit" value="Submit">-->
-    </form>
-</main>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="33">County</td>
+                    <td>
+                        <div id="county_drop_down"><select id="county" name="county"><option value="">County...</option></select></div>
+                        <span id="loading_county_drop_down"><img src="style/loader.gif" width="16" height="16" align="absmiddle">&nbsp;Loading...</span>
+                        <div id="no_county_drop_down">This state has no counties.</div>
+                    </td>
+                </tr>
+            </table>
+            <button class="search" type="button">Search</button>
+            <!--        <input type="submit" value="Submit">-->
+        </form>
+    </main>
 
 </body>
 
