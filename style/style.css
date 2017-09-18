@@ -1,4 +1,5 @@
-#county_drop_down, #no_county_drop_down, #loading_county_drop_down
-{
-display: none;
+#county_drop_down,
+#no_county_drop_down,
+#loading_county_drop_down {
+    display: none;
 }
