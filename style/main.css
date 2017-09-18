@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+
+header {
+    margin-top: 50px;
+    height: 120px;
+    width: 90%;
+    background-color: lightyellow;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 15px;
+    height: 90px;
+    position: absolute;
+    margin-bottom: 70px;
+}
+
+.banner-font {
+    margin-left: 400px;
+    text-align: center;
+    font-family: 'Martel', serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.banner2-font {
+    text-align: center;
+    font-family: 'Martel', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section {
+    margin-top: 200px;
+}
