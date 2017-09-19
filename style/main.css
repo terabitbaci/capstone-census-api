@@ -8,9 +8,10 @@
 
 header {
     margin-top: 50px;
-    height: 120px;
-    width: 90%;
+    width: 100%;
     background-color: lightyellow;
+    /*    position: fixed;*/
+    margin: 10 auto;
 }
 
 .logo {
@@ -21,8 +22,9 @@ header {
     margin-bottom: 70px;
 }
 
-.banner-font {
+.headline {
     margin-left: 400px;
+    margin-right: 50px;
     text-align: center;
     font-family: 'Martel', serif;
     font-size: 36px;
