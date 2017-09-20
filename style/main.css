@@ -7,25 +7,24 @@
 }
 
 header {
-    padding-top: 18px;
-    padding-bottom: 17px;
     width: 100%;
     background-color: lightyellow;
 }
 
 .logo {
     margin-left: 50px;
-    margin-top: 17px;
-    height: 135px;
+    margin-top: 12px;
+    /*    margin-bottom: 15px;*/
+    height: 65px;
     position: absolute;
-    margin-bottom: 38px;
 }
 
-.headline {
-    margin-left: 350px;
-    margin-right: 50px;
-    margin-top: 8px;
-    text-align: center;
+.headlines {
+    padding-top: 6px;
+}
+
+.headline1 {
+    margin-left: 330px;
     font-family: 'Martel', serif;
     font-size: 58px;
     font-weight: 700;
@@ -33,14 +32,10 @@ header {
 }
 
 .headline2 {
-    margin-left: 350px;
-    margin-right: 50px;
-    margin-top: -10px;
-    text-align: center;
+    margin-left: 50px;
     font-family: 'Paprika', cursive;
     font-size: 50px;
     color: crimson;
-    margin-bottom: 10px;
 }
 
 body {
