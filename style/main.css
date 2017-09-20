@@ -21,6 +21,7 @@ header {
 
 .headlines {
     padding-top: 6px;
+    /*    width: 56%;*/
 }
 
 .headline1 {
@@ -32,7 +33,7 @@ header {
 }
 
 .headline2 {
-    margin-left: 50px;
+    /*    margin-left: 20px;*/
     font-family: 'Paprika', cursive;
     font-size: 50px;
     color: crimson;
@@ -44,14 +45,15 @@ body {
 }
 
 .intro {
-    margin-top: 250px;
-    margin-left: 700px;
-    font-size: 16px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
     border: 4px solid #024785;
     border-radius: 7px;
     padding: 12px;
     background-color: cornflowerblue;
-    width: 40%;
+    width: 54%;
     /*
     margin-left: auto;
     margin-right: auto;
