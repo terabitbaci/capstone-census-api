@@ -92,7 +92,7 @@ $(document).on("click", ".search", function (event) {
             //ignore the table head (the first row of the results)
             if (resultKey > 0) {
                 buildTheHtmlOutput += "<li>";
-                buildTheHtmlOutput += "<h4>Moved from: " + resultValue[4] + "</h4>";
+                buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
                 buildTheHtmlOutput += "<p>Moved in: " + resultValue[0] + "</p>";
                 buildTheHtmlOutput += "<p>Moved out: " + resultValue[1] + "</p>";
                 buildTheHtmlOutput += "<p>Moved net: " + resultValue[2] + "</p>";
@@ -100,7 +100,7 @@ $(document).on("click", ".search", function (event) {
             }
         });
 
-        $("#search-results h3").html("Population dynamics for " + countyName + ", " + stateName);
+        $("#search-results h3").html("Migrations for " + countyName + ", " + stateName);
 
         //use the HTML output to show it in the index.html
         $("#search-results ul").html(buildTheHtmlOutput);
