@@ -1,7 +1,6 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-
 
 
 /* Grid measurements:
@@ -17,63 +16,73 @@
  */
 
 .row {
-  max-width: 1000px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0px auto;
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px auto;
 }
 
-/* Clearfix */
+
+/* Clearfix - forces height of each row to expand to the height of its tallest child element */
+
 .row::before,
 .row::after {
-  display: table;
-  content: '';
+    display: table;
+    content: '';
 }
+
+
+/* any content that comes after the row will act as though the preceeding row was in the normal flow, instead of butting up against the row container */
 
 .row::after {
-  clear: both;
+    clear: both;
 }
 
-.col-3, .col-4, .col-6, .col-12 {
-  float: left;
-  margin: 10px auto;
-  /* Gutters:
+.col-3,
+.col-4,
+.col-6,
+.col-12 {
+    float: left;
+    margin: 10px auto;
+    /* Gutters:
    * Each column is padded by half-a-gutter on each side,
    *
    * Half a gutter is 10px, 10/960 (context) = 1.041666%
    *
    */
-  padding-left: 1.04166666%;
-  padding-right: 1.04166666%;
-  display: inline-block;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+    display: inline-block;
 }
 
+
 /* Mobile defaults */
-.col-3, .col-4, .col-6, .col-12 {
-  width: 100%;
+
+.col-3,
+.col-4,
+.col-6,
+.col-12 {
+    width: 100%;
 }
 
 
 /* Non-mobile, grid */
+
 @media only screen and (min-width: 640px) {
-
-  /* 3 columns, 3/12 in % */
-  .col-3 {
-    width: 25%;
-  }
-
-  /* 4 columns */
-  .col-4 {
-    width: 33.33333%;
-  }
-
-/* 6 columns */
-  .col-6 {
-    width: 50%;
-  }
-
-  /* 12 columns */
-  .col-12 {
-    width: 100%;
-  }
+    /* 3 columns, 3/12 in % */
+    .col-3 {
+        width: 25%;
+    }
+    /* 4 columns */
+    .col-4 {
+        width: 33.33333%;
+    }
+    /* 6 columns */
+    .col-6 {
+        width: 50%;
+    }
+    /* 12 columns */
+    .col-12 {
+        width: 100%;
+    }
 }
