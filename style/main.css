@@ -135,3 +135,11 @@ label {
 ul {
     list-style-type: none;
 }
+
+footer p {
+    font-family: Bilbo;
+    font-size: 20px;
+    text-align: center;
+    border-top: 1px solid aliceblue;
+    padding-top: 15px
+}
