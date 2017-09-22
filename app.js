@@ -88,27 +88,23 @@ $(document).on("click", ".search", function (event) {
         //create an empty variable to store one LI for each one the results
         var buildTheHtmlOutput = "";
 
-        var i = 0;
+
         $.each(result, function (resultKey, resultValue) {
             //ignore the table head (the first row of the results)
             if (resultKey > 0) {
-                buildTheHtmlOutput += "<li class='col-4'>";
+                buildTheHtmlOutput += "<li class='column'>";
                 buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
                 buildTheHtmlOutput += "<p>Moved in: " + resultValue[0] + "</p>";
                 buildTheHtmlOutput += "<p>Moved out: " + resultValue[1] + "</p>";
                 buildTheHtmlOutput += "<p>Moved net: " + resultValue[2] + "</p>";
                 buildTheHtmlOutput += "</li>";
             }
-            if (i % 3 == 0) {
-                buildTheHtmlOutput += "</div><div class='row'>"
-            }
-            i++;
         });
 
         $("#search-results h3").html("Migrations for " + countyName + ", " + stateName);
 
         //use the HTML output to show it in the index.html
-        $("#search-results ul .row").html(buildTheHtmlOutput);
+        $("#search-results ul").html(buildTheHtmlOutput);
     }
 
 });
