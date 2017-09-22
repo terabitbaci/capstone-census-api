@@ -123,3 +123,12 @@ label {
     font-family: 'Martel', sans-serif;
     color: aliceblue;
 }
+
+.results-wrapper li {
+    margin-top: 25px;
+    border: 4px solid #024785;
+    border-radius: 7px;
+    padding: 12px;
+    background-color: cornflowerblue;
+    width: 32%;
+}
