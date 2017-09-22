@@ -1,9 +1,18 @@
+html,
+body {
+    height: 100%
+}
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
     /* border: 1px solid lightgray; */
+}
+
+main {
+    overflow: hidden;
 }
 
 header {
@@ -42,6 +51,7 @@ header {
 body {
     background: url(../images/dandylion1.png) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .intro {
@@ -141,5 +151,7 @@ footer p {
     font-size: 20px;
     text-align: center;
     border-top: 1px solid aliceblue;
-    padding-top: 15px
+    padding-top: 15px;
+    /*    position: absolute;*/
+    bottom: 0;
 }
