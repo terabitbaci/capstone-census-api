@@ -207,6 +207,23 @@ footer p {
 }
 
 @media only screen and (max-width: 1130px) {
+    .logo {
+        margin-top: 7px;
+        height: 46px;
+    }
+    .headline1 {
+        font-size: 34px;
+        margin-left: 270px;
+    }
+    .headline2 {
+        font-size: 29px;
+        margin-left: 15px;
+    }
+}
+
+
+/*
+@media only screen and (max-width: 830px) {
     .headline1 {
         font-size: 39px;
         margin-left: 270px;
@@ -219,8 +236,21 @@ footer p {
         margin-bottom: 20px;
     }
 }
+*/
 
 @media only screen and (max-width: 1024px) {
+    .logo {
+        margin-top: 7px;
+        height: 41px;
+    }
+    .headline1 {
+        font-size: 31px;
+        margin-left: 230px;
+    }
+    .headline2 {
+        font-size: 26px;
+        margin-left: 14px;
+    }
     .results-wrapper li.column {
         width: 98%;
         display: block;
