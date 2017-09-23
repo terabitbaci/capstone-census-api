@@ -221,23 +221,6 @@ footer p {
     }
 }
 
-
-/*
-@media only screen and (max-width: 830px) {
-    .headline1 {
-        font-size: 39px;
-        margin-left: 270px;
-    }
-    .headline2 {
-        display: block;
-        font-size: 34px;
-        margin-left: 320px;
-        margin-top: -15pt;
-        margin-bottom: 20px;
-    }
-}
-*/
-
 @media only screen and (max-width: 1024px) {
     .logo {
         margin-top: 7px;
@@ -254,5 +237,24 @@ footer p {
     .results-wrapper li.column {
         width: 98%;
         display: block;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .logo {
+        margin-top: 13px;
+        height: 52px;
+        margin-left: 86px;
+    }
+    .headline1 {
+        font-size: 31px;
+        margin-left: 282px;
+    }
+    .headline2 {
+        display: block;
+        font-size: 26px;
+        margin-left: 270px;
+        margin-top: -15pt;
+        margin-bottom: 20px;
     }
 }
