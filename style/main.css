@@ -195,6 +195,15 @@ footer p {
     }
 }
 
+@media only screen and (max-width: 1130px) {
+    .headline2 {
+        display: block;
+        margin-left: 320px;
+        margin-top: -15pt;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .results-wrapper li.column {
         width: 98%;
