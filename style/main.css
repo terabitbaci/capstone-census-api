@@ -161,6 +161,24 @@ footer p {
     bottom: 0;
 }
 
+@media only screen and (max-width: 1460px) {
+    .headline1 {
+        font-size: 50px;
+    }
+    .headline2 {
+        font-size: 43px;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+    .headline1 {
+        font-size: 44px;
+    }
+    .headline2 {
+        font-size: 38px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .intro,
     .results-wrapper {
@@ -168,6 +186,12 @@ footer p {
     }
     #search-form {
         width: 60%;
+    }
+    .headline1 {
+        font-size: 39px;
+    }
+    .headline2 {
+        font-size: 34px;
     }
 }
 
