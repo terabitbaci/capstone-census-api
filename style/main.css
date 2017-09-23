@@ -255,6 +255,22 @@ footer p {
         font-size: 26px;
         margin-left: 270px;
         margin-top: -15pt;
-        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        margin-top: 7px;
+        height: 52px;
+        margin-left: 86px;
+    }
+    .headline1 {
+        font-size: 25px;
+        margin-left: 259px;
+    }
+    .headline2 {
+        font-size: 20px;
+        margin-left: 256px;
+        margin-top: -8pt;
     }
 }
