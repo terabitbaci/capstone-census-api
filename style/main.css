@@ -99,6 +99,7 @@ header {
     border: 2px solid #024785;
     border-radius: 15px;
     margin-top: 18px;
+    margin-bottom: 4pt;
     padding: 3px;
     background-color: cornflowerblue;
     width: 20%;
@@ -106,23 +107,10 @@ header {
     color: black;
 }
 
-
-/*
-label {
-    width: 100px;
-    clear: left;
-    text-align: right;
-    padding-right: 1px;
+.search:hover {
+    background-color: 5183CC;
+    font-weight: 400;
 }
-*/
-
-
-/*
-input,
-label {
-    float: left;
-}
-*/
 
 .results-wrapper {
     margin-top: 50px;
