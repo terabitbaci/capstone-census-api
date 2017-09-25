@@ -24,33 +24,29 @@ main {
 header {
     width: 100%;
     background-color: lightyellow;
+    text-align: center;
 }
 
 .logo {
-    margin-left: 50px;
-    margin-top: 12px;
-    /*    margin-bottom: 15px;*/
-    height: 65px;
-    position: absolute;
+    height: 48px;
+    margin: 8px auto;
 }
 
-.headlines {
-    padding-top: 6px;
-    /*    width: 56%;*/
-}
+.headlines {}
 
 .headline1 {
-    margin-left: 330px;
     font-family: 'Martel', serif;
-    font-size: 58px;
+    font-size: 25px;
     font-weight: 700;
-    color: darkblue
+    color: darkblue;
 }
 
 .headline2 {
-    margin-left: 18px;
+    display: block;
+    margin-top: -9px;
+    padding-bottom: 8px;
     font-family: 'Paprika', cursive;
-    font-size: 50px;
+    font-size: 20px;
     color: crimson;
 }
 
@@ -157,9 +153,11 @@ footer p {
     text-align: center;
     border-top: 1px solid aliceblue;
     padding-top: 15px;
-    /*    position: absolute;*/
     bottom: 0;
 }
+
+
+/*
 
 @media only screen and (max-width: 1460px) {
     .headline1 {
@@ -274,3 +272,4 @@ footer p {
         margin-top: -8pt;
     }
 }
+*/
