@@ -54,12 +54,12 @@ header {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 17px;
-    border: 4px solid #024785;
+    font-size: 16px;
+    border: 2px solid #024785;
     border-radius: 7px;
     padding: 12px;
     background-color: cornflowerblue;
-    width: 70%;
+    width: 95%;
     font-family: 'Martel', sans-serif;
     color: aliceblue;
     text-align: justify;
