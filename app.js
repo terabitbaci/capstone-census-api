@@ -94,7 +94,7 @@ $(document).on("click", ".search", function (event) {
             if (resultKey > 0) {
                 buildTheHtmlOutput += "<li class='column'>";
                 buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
-                buildTheHtmlOutput += "<p>Moved in: " + resultValue[0] + "</p>";
+                buildTheHtmlOutput += "<p>" + '<i class="fa fa-sign-in fa-3x" aria-hidden="true"></i>' + "   " + resultValue[0] + "</p>";
                 buildTheHtmlOutput += "<p>Moved out: " + resultValue[1] + "</p>";
                 buildTheHtmlOutput += "<p>Moved net: " + resultValue[2] + "</p>";
                 buildTheHtmlOutput += "</li>";
