@@ -147,8 +147,14 @@ header {
     font-size: 18pt;
 }
 
-.results-wrapper li>p ."fa fa-sign-in" {
+."fa fa-sign-in" {
     vertical-align: middle;
+    text-align: center;
+}
+
+."fa fa-sign-out" {
+    vertical-align: middle;
+    text-align: center;
 }
 
 footer p {
