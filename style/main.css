@@ -144,6 +144,7 @@ h4 {
 
 .results-wrapper li.column {
     margin-top: 12px;
+    margin-bottom: 12px;
     border: 1px solid #024785;
     border-radius: 7px;
     padding: 12px;
@@ -157,16 +158,11 @@ h4 {
 
 .results-wrapper li>p {
     font-size: 14pt;
+    text-align: center;
 }
 
-.fa-sign-in {
-    vertical-align: middle;
-    margin-left: 50%;
-}
-
-.fa-sign-out {
-    vertical-align: middle;
-    margin-right: 50%;
+.fa-map-marker {
+    color: red;
 }
 
 footer p {

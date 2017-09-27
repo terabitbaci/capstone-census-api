@@ -92,11 +92,32 @@ $(document).on("click", ".search", function (event) {
         $.each(result, function (resultKey, resultValue) {
             //ignore the table head (the first row of the results)
             if (resultKey > 0) {
+                var displayInValue = 0;
+                if (resultValue[0] !== null) {
+                    displayInValue = resultValue[0];
+                }
+                var displayOutValue = 0;
+                if (resultValue[0] !== null) {
+                    displayOutValue = resultValue[1];
+                }
                 buildTheHtmlOutput += "<li class='column'>";
                 buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
-                buildTheHtmlOutput += "<p>" + resultValue[0] + "&nbsp &nbsp &nbsp" + "<i class='fa fa-sign-in' aria-hidden='true'></i>" + "</p>";
-                buildTheHtmlOutput += "<p>" + "<i class='fa fa-sign-out' aria-hidden='true'></i>" + "&nbsp &nbsp &nbsp" + resultValue[1] + "</p>";
-                buildTheHtmlOutput += "<p>" + "Net: " + resultValue[2] + "</p>";
+
+                //                buildTheHtmlOutput += "<p>" + resultValue[0] + "&nbsp &nbsp &nbsp" + "<i class='fa fa-sign-in' aria-hidden='true'></i>" + "</p>";
+                //                buildTheHtmlOutput += "<p>" + "<i class='fa fa-sign-out' aria-hidden='true'></i>" + "&nbsp &nbsp &nbsp" + resultValue[1] + "</p>";
+
+                buildTheHtmlOutput += "<p>";
+
+                buildTheHtmlOutput += displayInValue + "&nbsp";
+                buildTheHtmlOutput += "<a href='#' title='Moved in'><i class='fa fa-sign-in' aria-hidden='true' ></i></a>" + "&nbsp &nbsp";
+                buildTheHtmlOutput += "<a href='#' title='" + resultValue[4] + "'><i class='fa fa-map-marker' aria-hidden='true' ></i></a>" + "&nbsp &nbsp";
+                buildTheHtmlOutput += "<a href='#' title='Moved out'><i class='fa fa-sign-out' aria-hidden='true' ></i></a>" + "&nbsp";
+                buildTheHtmlOutput += displayOutValue;
+
+                buildTheHtmlOutput += "</p>";
+
+
+                buildTheHtmlOutput += "<p>" + "Net: " + (displayInValue - displayOutValue) + "</p>";
                 buildTheHtmlOutput += "</li>";
             }
         });
