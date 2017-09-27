@@ -145,7 +145,10 @@ header {
 
 .results-wrapper li>p {
     font-size: 18pt;
-    margin-top: -7pt;
+}
+
+.results-wrapper li>p ."fa fa-sign-in" {
+    vertical-align: middle;
 }
 
 footer p {
