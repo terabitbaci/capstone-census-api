@@ -94,14 +94,14 @@ $(document).on("click", ".search", function (event) {
             if (resultKey > 0) {
                 buildTheHtmlOutput += "<li class='column'>";
                 buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
-                buildTheHtmlOutput += "<p>" + resultValue[0] + "&nbsp &nbsp &nbsp" + '<i class="fa fa-sign-in fa-lg" aria-hidden="true"></i>' + "</p>";
-                buildTheHtmlOutput += "<p>" + '<i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>' + "&nbsp &nbsp &nbsp" + resultValue[1] + "</p>";
-                buildTheHtmlOutput += "<p>Moved net: " + resultValue[2] + "</p>";
+                buildTheHtmlOutput += "<p>" + resultValue[0] + "&nbsp &nbsp &nbsp" + "<i class='fa fa-sign-in' aria-hidden='true'></i>" + "</p>";
+                buildTheHtmlOutput += "<p>" + "<i class='fa fa-sign-out' aria-hidden='true'></i>" + "&nbsp &nbsp &nbsp" + resultValue[1] + "</p>";
+                buildTheHtmlOutput += "<p>" + "Net: " + resultValue[2] + "</p>";
                 buildTheHtmlOutput += "</li>";
             }
         });
 
-        $("#search-results h3").html("Migrations for " + countyName + ", " + stateName);
+        $("#search-results h4").html("Migrations for " + countyName + ", " + stateName);
 
         //use the HTML output to show it in the index.html
         $("#search-results ul").html(buildTheHtmlOutput);
