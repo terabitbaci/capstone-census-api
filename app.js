@@ -97,9 +97,13 @@ $(document).on("click", ".search", function (event) {
                     displayInValue = resultValue[0];
                 }
                 var displayOutValue = 0;
-                if (resultValue[0] !== null) {
+                if (resultValue[1] !== null) {
                     displayOutValue = resultValue[1];
+                } else {
+                    displayOutValue = "no data";
                 }
+
+
                 buildTheHtmlOutput += "<li class='column'>";
                 buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
 
@@ -109,13 +113,14 @@ $(document).on("click", ".search", function (event) {
                 buildTheHtmlOutput += "<p>";
 
                 buildTheHtmlOutput += displayInValue + "&nbsp";
-                buildTheHtmlOutput += "<a href='#' title='Moved in'><i class='fa fa-sign-in' aria-hidden='true' ></i></a>" + "&nbsp &nbsp";
-                buildTheHtmlOutput += "<a href='#' title='" + resultValue[4] + "'><i class='fa fa-map-marker' aria-hidden='true' ></i></a>" + "&nbsp &nbsp";
+                buildTheHtmlOutput += "<a href='#' title='Moved in'><i class='fa fa-sign-in' aria-hidden='true'></i></a>" + "&nbsp &nbsp";
+                buildTheHtmlOutput += "<a href='#' title='" + resultValue[3] + "'><i class='fa fa-map-marker' aria-hidden='true' ></i></a>" + "&nbsp &nbsp";
                 buildTheHtmlOutput += "<a href='#' title='Moved out'><i class='fa fa-sign-out' aria-hidden='true' ></i></a>" + "&nbsp";
                 buildTheHtmlOutput += displayOutValue;
 
                 buildTheHtmlOutput += "</p>";
 
+                displayOutValue = resultValue[1];
 
                 buildTheHtmlOutput += "<p>" + "Net: " + (displayInValue - displayOutValue) + "</p>";
                 buildTheHtmlOutput += "</li>";
