@@ -196,6 +196,7 @@ h4 {
 }
 
 footer p {
+    margin-top: 25px;
     font-family: Bilbo;
     font-size: 20px;
     text-align: center;
