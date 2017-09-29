@@ -107,8 +107,6 @@ $(document).on("click", ".search", function (event) {
                 buildTheHtmlOutput += "<li class='column'>";
                 buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
 
-                //                buildTheHtmlOutput += "<p>" + resultValue[0] + "&nbsp &nbsp &nbsp" + "<i class='fa fa-sign-in' aria-hidden='true'></i>" + "</p>";
-                //                buildTheHtmlOutput += "<p>" + "<i class='fa fa-sign-out' aria-hidden='true'></i>" + "&nbsp &nbsp &nbsp" + resultValue[1] + "</p>";
 
                 buildTheHtmlOutput += "<p>";
 

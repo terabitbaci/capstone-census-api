@@ -162,6 +162,7 @@ h4 {
 
 .fa-map-marker {
     color: red;
+    vertical-align: text-top;
 }
 
 footer p {
