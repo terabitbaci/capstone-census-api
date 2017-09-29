@@ -1,7 +1,7 @@
 pic1 = new Image(16, 16);
 pic1.src = "style/loader.gif";
 
-
+$('.legend').hide();
 
 
 //        $("#search-form").submit(function(event) {
@@ -10,6 +10,8 @@ $(document).on("click", ".search", function (event) {
 
     //if the page refreshes when you submit the form use "preventDefault()" to force JavaScript to handle the form submission
     event.preventDefault();
+
+    $('.legend').show();
 
 
     //get the state value from the input box
