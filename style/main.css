@@ -12,8 +12,9 @@ body {
 }
 
 body {
-    background: url(../images/dandylion1.png) no-repeat;
+    background: url("../images/dandylion300.png") no-repeat;
     background-size: cover;
+    /*    background-size: 100%;*/
     background-attachment: fixed;
 }
 
@@ -69,13 +70,6 @@ h3,
 h4 {
     text-align: center;
 }
-
-
-/*
-h4 {
-    text-align: center;
-}
-*/
 
 .wrapper {
     margin-top: 40px;
@@ -157,8 +151,13 @@ h4 {
 }
 
 .results-wrapper li>p {
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: center;
+}
+
+.fa-long-arrow-right {
+    color: black;
+    vertical-align: bottom;
 }
 
 .fa-map-marker {

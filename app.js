@@ -113,9 +113,9 @@ $(document).on("click", ".search", function (event) {
                 buildTheHtmlOutput += "<p>";
 
                 buildTheHtmlOutput += displayInValue + "&nbsp";
-                buildTheHtmlOutput += "<a href='#' title='Moved in'><i class='fa fa-sign-in' aria-hidden='true'></i></a>" + "&nbsp &nbsp";
-                buildTheHtmlOutput += "<a href='#' title='" + resultValue[3] + "'><i class='fa fa-map-marker' aria-hidden='true' ></i></a>" + "&nbsp &nbsp";
-                buildTheHtmlOutput += "<a href='#' title='Moved out'><i class='fa fa-sign-out' aria-hidden='true' ></i></a>" + "&nbsp";
+                buildTheHtmlOutput += "<a href='#' title='Moved in'><i class='fa fa-long-arrow-right fa-2x' aria-hidden='true'></i></a>" + "&nbsp &nbsp";
+                buildTheHtmlOutput += "<a href='#' title='" + resultValue[3] + "'><i class='fa fa-map-marker fa-lg' aria-hidden='true' ></i></a>" + "&nbsp &nbsp";
+                buildTheHtmlOutput += "<a href='#' title='Moved out'><i class='fa fa-long-arrow-right fa-2x' aria-hidden='true' ></i></a>" + "&nbsp";
                 buildTheHtmlOutput += displayOutValue;
 
                 buildTheHtmlOutput += "</p>";
