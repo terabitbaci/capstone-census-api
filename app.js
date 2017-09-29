@@ -107,6 +107,10 @@ $(document).on("click", ".search", function (event) {
                 buildTheHtmlOutput += "<li class='column'>";
                 buildTheHtmlOutput += "<h4>with " + resultValue[4] + "</h4>";
 
+                //                buildTheHtmlOutput += "<h5>legend:</h5>";
+                //                buildTheHtmlOutput += "<h5>people moved in<i class='fa fa-long-arrow-right fa-2x' aria-hidden='true'></i>"
+
+
 
                 buildTheHtmlOutput += "<p>";
 

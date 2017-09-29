@@ -118,6 +118,31 @@ h4 {
     font-weight: 400;
 }
 
+.legend {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    border: 2px solid #024785;
+    border-radius: 7px;
+    padding: 8px;
+    background-color: lightyellow;
+    width: 80%;
+    font-family: 'Robato', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.legend table {
+    text-align: center;
+}
+
+.legend td {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid red;
+}
+
 .results-wrapper {
     margin-top: 50px;
     margin-left: auto;
