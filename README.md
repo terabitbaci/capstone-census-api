@@ -1,6 +1,6 @@
 
-# adfsdfsdf
-Thinkful (https://www.thinkful.com/) API portfolio project - a responsive app to easily find upcoming shows and directions to your favorite bands.
+# U.S. Migration Stats for Your County
+Thinkful (https://www.thinkful.com/) API portfolio project - a responsive app to help the user understand the population migration flow into and out of their community. The source of the data is the U.S. Census Bureau, which conducts...
 
 ![landing-page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/landing-page.png)
 ![landing-page-with-results](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/landing-page-with-results.png)
