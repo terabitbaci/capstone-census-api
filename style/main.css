@@ -71,6 +71,14 @@ h4 {
     text-align: center;
 }
 
+#bars-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: red;
+}
+
 .wrapper {
     margin-top: 40px;
     text-align: center;
@@ -197,6 +205,7 @@ h4 {
 
 footer {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 footer p {
@@ -218,6 +227,14 @@ footer li a {
     color: black;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+footer #back-to-top .fa-caret-square-o-up {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    color: black;
 }
 
 

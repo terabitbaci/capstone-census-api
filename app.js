@@ -63,10 +63,12 @@ function displaySearchResults(result, countyName, stateName) {
 $(document).ready(function () {
     $('.legend').hide();
     $('.results-wrapper').hide();
+    $('.fa-caret-square-o-up').hide();
 });
 
 $(document).change("#county", function (event) {
     $('.results-wrapper').hide();
+    $('.fa-caret-square-o-up').hide();
 });
 
 //when search button is clicked
@@ -78,6 +80,7 @@ $(document).on("click", ".search", function (event) {
 
     $('.legend').show();
     $('.results-wrapper').show();
+    $('.fa-caret-square-o-up').show();
 
 
     //get the state value from the input box
