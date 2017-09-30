@@ -1,7 +1,7 @@
 pic1 = new Image(16, 16);
 pic1.src = "style/loader.gif";
 
-//STEP 1 - define global funcitons variable and objects
+//STEP 1 - define global functions variable and objects
 
 function displaySearchResults(result, countyName, stateName) {
 
@@ -57,7 +57,7 @@ function displaySearchResults(result, countyName, stateName) {
 
 
 
-//STEP 2 - use global funcitons variable and objects (triggers)
+//STEP 2 - use global functions variable and objects (triggers)
 
 //when the page loads
 $(document).ready(function () {

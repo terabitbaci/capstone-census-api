@@ -197,12 +197,21 @@ h4 {
 
 footer p {
     margin-top: 25px;
-    font-family: Bilbo;
+    font-family: Courgette;
     font-size: 20px;
     text-align: center;
     border-top: 1px solid aliceblue;
     padding-top: 15px;
     bottom: 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li a {
+    display: inline;
+    color: black;
 }
 
 
