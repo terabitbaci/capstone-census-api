@@ -51,6 +51,32 @@ header {
     color: crimson;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: green;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
+
 .intro {
     margin-top: 40px;
     margin-left: auto;
@@ -71,12 +97,12 @@ h4 {
     text-align: center;
 }
 
-#bars-menu {
+#bars-menu .fa-bars {
     display: block;
     position: absolute;
     top: 20px;
     right: 15px;
-    color: red;
+    color: crimson;
 }
 
 .wrapper {
@@ -235,6 +261,10 @@ footer #back-to-top .fa-caret-square-o-up {
     bottom: 20px;
     right: 15px;
     color: black;
+}
+
+.show {
+    display: block !important;
 }
 
 

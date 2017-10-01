@@ -71,6 +71,10 @@ $(document).change("#county", function (event) {
     $('.fa-caret-square-o-up').hide();
 });
 
+$(document).on("click", "#bars-menu a", function (event) {
+    $(".topnav").toggleClass("show");
+});
+
 //when search button is clicked
 $(document).on("click", ".search", function (event) {
 
