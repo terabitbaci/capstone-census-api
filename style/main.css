@@ -83,10 +83,12 @@ header {
     display: inline-block;
 }
 
+/*
 .topnav li::after {
     content: "|";
     margin-left: 5pt;
 }
+*/
 
 
 /*
