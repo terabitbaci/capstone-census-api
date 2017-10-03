@@ -70,6 +70,26 @@ header {
     font-family: 'Martel', sans-serif;
 }
 
+.topnav ul {
+    /*    display: inline-block;*/
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid lightyellow;
+    text-decoration: none;
+    /*    width: 95%;*/
+}
+
+.topnav li {
+    display: inline-block;
+}
+
+.topnav li::after {
+    content: "|";
+    margin-left: 5pt;
+}
+
+
+/*
 .horiz-tools {
     overflow: hidden;
     width: 100%;
@@ -84,6 +104,7 @@ header {
     border-right: 1px solid lightyellow;
     font-family: 'Martel', sans-serif;
 }
+*/
 
 .topnav-horiz {
     overflow: hidden;
