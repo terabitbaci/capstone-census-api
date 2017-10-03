@@ -55,7 +55,7 @@ header {
     width: 100%;
     background-color: rgba(39, 112, 194, 0.62);
     /*  add display when layout is finished  */
-    /*    display: none;*/
+    display: none;
 }
 
 .topnav a {
@@ -82,6 +82,7 @@ header {
 .topnav li {
     display: inline-block;
 }
+
 
 /*
 .topnav li::after {
