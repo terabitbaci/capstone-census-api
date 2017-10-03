@@ -54,6 +54,8 @@ header {
 .topnav {
     width: 100%;
     background-color: rgba(39, 112, 194, 0.62);
+    /*  add display when layout is finished  */
+    /*    display: none;*/
 }
 
 .topnav a {
@@ -68,6 +70,21 @@ header {
     font-family: 'Martel', sans-serif;
 }
 
+.horiz-tools {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    color: lightyellow;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    border-bottom: 1px solid lightyellow;
+    border-right: 1px solid lightyellow;
+    font-family: 'Martel', sans-serif;
+}
+
 .topnav-horiz {
     overflow: hidden;
     background-color: #333;
@@ -75,8 +92,7 @@ header {
 }
 
 .topnav-horiz a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 4px 11px;
