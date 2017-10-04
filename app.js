@@ -44,6 +44,8 @@ function displaySearchResults(result, countyName, stateName) {
 
             buildTheHtmlOutput += "<p>" + "Net: " + (displayInValue - displayOutValue) + "</p>";
             buildTheHtmlOutput += "</li>";
+
+            //function to display the data in chart goes here
         }
     });
 
