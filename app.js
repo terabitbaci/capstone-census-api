@@ -16,7 +16,7 @@ function displaySearchResults(result, countyName, stateName) {
             if (resultValue[0] !== null) {
                 displayInValue = resultValue[0];
             }
-            var displayOutValue = "no data";
+            var displayOutValue = '<span style="font-size:15px !important;">no foreign data</span>';
             if (resultValue[1] !== null) {
                 displayOutValue = resultValue[1];
             }
