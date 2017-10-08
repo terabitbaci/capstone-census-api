@@ -336,6 +336,32 @@ footer #back-to-top .fa-caret-square-o-up {
     }
 }
 
+@media only screen and (min-width: 600px) {
+    #search-form {
+        background-color: lightblue;
+        width: 65%;
+    }
+    .legend {
+        background-color: lightblue;
+        width: 60%;
+    }
+    .results-wrapper {
+        background-color: white;
+        width: 80%;
+    }
+    .results-wrapper ul {
+        text-align: center;
+    }
+    .results-wrapper li.column {
+        /*
+        margin-left: auto;
+        margin-right: auto;
+*/
+        background-color: lightblue;
+        width: 75%;
+    }
+}
+
 
 /*
 
