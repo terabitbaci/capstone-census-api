@@ -353,12 +353,8 @@ footer #back-to-top .fa-caret-square-o-up {
         text-align: center;
     }
     .results-wrapper li.column {
-        /*
-        margin-left: auto;
-        margin-right: auto;
-*/
         background-color: lightblue;
-        width: 75%;
+        width: 85%;
     }
 }
 
