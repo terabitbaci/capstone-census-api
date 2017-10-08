@@ -329,6 +329,13 @@ footer #back-to-top .fa-caret-square-o-up {
     display: block !important;
 }
 
+@media only screen and (min-width: 480px) {
+    .legend {
+        background-color: white;
+        width: 85%;
+    }
+}
+
 
 /*
 
