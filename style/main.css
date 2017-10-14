@@ -33,7 +33,8 @@ header {
     margin: 8px auto;
 }
 
-.headlines {}
+
+/*.headlines {}*/
 
 .headline1 {
     font-family: 'Martel', serif;
@@ -364,22 +365,24 @@ footer #back-to-top .fa-caret-square-o-up {
         text-align: left;
     }
     .logo {
-        margin-top: 13px;
+        margin-top: 16px;
         margin-left: 40px;
-        height: 52px;
+        height: 55px;
     }
     .headlines {
+        margin-top: 9px;
+        padding-top: 0;
+        vertical-align: top;
         display: inline-block;
     }
     .headline1 {
         font-size: 26px;
-        margin-top: 17px;
+        margin-top: 13px;
         margin-left: 90px;
     }
     .headline2 {
         font-size: 23px;
         margin-left: 76px;
-        */
     }
 }
 
