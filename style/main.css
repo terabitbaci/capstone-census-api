@@ -456,6 +456,22 @@ footer #back-to-top .fa-caret-square-o-up {
     .headline2 {
         font-size: 30px;
     }
+    #search-form {
+        background-color: lightsteelblue;
+        width: 45%;
+    }
+    .legend {
+        background-color: lightsteelblue;
+        width: 40%;
+    }
+    .results-wrapper {
+        background-color: lightsteelblue;
+        width: 55%;
+    }
+    .results-wrapper li.column {
+        background-color: lightblue;
+        width: 80%;
+    }
 }
 
 
