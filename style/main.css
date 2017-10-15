@@ -410,6 +410,14 @@ footer #back-to-top .fa-caret-square-o-up {
         margin-left: 12px;
         display: inline-block;
     }
+    #search-form {
+        background-color: lightsalmon;
+        width: 50%;
+    }
+    .legend {
+        background-color: lightsalmon;
+        width: 45%;
+    }
 }
 
 @media only screen and (min-width: 960px) {
@@ -419,13 +427,10 @@ footer #back-to-top .fa-caret-square-o-up {
     }
     .headline1 {
         font-size: 35px;
-        margin-top: 13px;
-        margin-left: 35px;
+        margin-left: 45px;
     }
     .headline2 {
         font-size: 30px;
-        margin-left: 15px;
-        display: inline-block;
     }
 }
 
