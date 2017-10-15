@@ -386,6 +386,32 @@ footer #back-to-top .fa-caret-square-o-up {
     }
 }
 
+@media only screen and (min-width: 840px) {
+    .intro {
+        background-color: lightsalmon;
+        width: 90%;
+    }
+    .logo {
+        height 48px;
+        margin-top: 12px;
+    }
+    .headlines {
+        margin-top: 15px;
+        padding-top: 0;
+        display: inline-block;
+    }
+    .headline1 {
+        font-size: 30px;
+        margin-top: 13px;
+        margin-left: 35px;
+    }
+    .headline2 {
+        font-size: 25px;
+        margin-left: 12px;
+        display: inline-block;
+    }
+}
+
 
 /*
 
