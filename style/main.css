@@ -396,7 +396,7 @@ footer #back-to-top .fa-caret-square-o-up {
         margin-top: 12px;
     }
     .headlines {
-        margin-top: 15px;
+        margin-top: 18px;
         padding-top: 0;
         display: inline-block;
     }
@@ -408,6 +408,23 @@ footer #back-to-top .fa-caret-square-o-up {
     .headline2 {
         font-size: 25px;
         margin-left: 12px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .intro {
+        background-color: lightsteelblue;
+        width: 90%;
+    }
+    .headline1 {
+        font-size: 35px;
+        margin-top: 13px;
+        margin-left: 35px;
+    }
+    .headline2 {
+        font-size: 30px;
+        margin-left: 15px;
         display: inline-block;
     }
 }
