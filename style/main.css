@@ -392,11 +392,19 @@ footer #back-to-top .fa-caret-square-o-up {
         background-color: lightsalmon;
         width: 55%;
     }
+    .results-wrapper {
+        background-color: lightsalmon;
+        width: 67%;
+    }
+    .results-wrapper li.column {
+        background-color: lightblue;
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 840px) {
     .intro {
-        background-color: lightsalmon;
+        background-color: lightcoral;
         width: 90%;
     }
     .logo {
@@ -419,11 +427,11 @@ footer #back-to-top .fa-caret-square-o-up {
         display: inline-block;
     }
     #search-form {
-        background-color: lightsalmon;
+        background-color: lightcoral;
         width: 50%;
     }
     .legend {
-        background-color: lightsalmon;
+        background-color: lightcoral;
         width: 45%;
     }
 }
