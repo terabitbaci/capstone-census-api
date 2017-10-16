@@ -1,21 +1,21 @@
 
 # U.S. Migration Stats for Your County
-Thinkful (https://www.thinkful.com/) API portfolio project - a responsive app to help the user understand the population migration flow into and out of their community. The source of the data is the U.S. Census Bureau, which conducts...
+Thinkful (https://www.thinkful.com/) API portfolio project - a responsive web page to help the user understand the population migration flow into and out of their community. The source of the data is the U.S. Census Bureau, which conducts...
 
 ![landing-page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/landing-page.png)
 ![landing-page-with-results](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/landing-page-with-results.png)
 
 ## Introduction
-In this day when immigration is often the leading news story, it would be helpful for people to see that migrations are a part of the human experience, that most communities are in flux, and that the migrating population in the United States is of every origin and background. The user of this app is curious about where the new people in their county came from, where their old neighbors moved to, and the corresponding change in population size.
+In this day when immigration is often the leading news story, it would be helpful for people to see that migrations are a part of the human experience, that most communities are in flux, and that the migrating population in the United States is of every origin and background. The user of this webpage is curious about where the new people in their community came from, where their old neighbors moved to, and the corresponding change in population size.
 
 
 
 ## Use Case
-Why is this app useful? Migration information for any given county in the United States is buried in the U.S. Census Bureau website. Publications by the bureau are general and are country-wide. This app
+Why is this app useful? Migration information for any given county in the United States is buried in the U.S. Census Bureau website. Publications by the bureau are general and are country-wide. This web page
 
 ## UX
 
-Initial wireframes for the U.S.Migration Stats for Your County app can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
+Initial wireframes for the U.S.Migration Stats for Your County web page can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
 
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1.jpg)
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2.jpg)
@@ -24,7 +24,7 @@ Initial wireframes for the U.S.Migration Stats for Your County app can be seen b
 The app is responsive and was designed to work on mobile, tablet and desktop screens.
 
 ## Live Site
-You can access the U.S.Migration Stats for Your County app at https://terabitbaci.github.io/capstone-census-api/
+You can access the U.S.Migration Stats for Your County web page at https://terabitbaci.github.io/capstone-census-api/
 
 ## Technical
 * The app is built using HTML5, CSS3 and JS 5 and 6.
