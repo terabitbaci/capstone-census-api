@@ -15,16 +15,16 @@ Why is this app useful? Migration information for any given county in the United
 
 ## UX
 
-Initial wireframes for Upbeat Atlas can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
+Initial wireframes for the U.S.Migration Stats for Your County app can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
 
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1.jpg)
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2.jpg)
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3.JPG)
 
-The app is responsive and was designed to work on mobile, tablet and desktop screens. A friendly popup window appears as users search for artists as information loads to consider choosing a more sustainable travel option.
+The app is responsive and was designed to work on mobile, tablet and desktop screens.
 
 ## Live Site
-You can access Upbeat Atlas at https://terabitbaci.github.io/capstone-census-api/
+You can access the U.S.Migration Stats for Your County app at https://terabitbaci.github.io/capstone-census-api/
 
 ## Technical
 * The app is built using HTML5, CSS3 and JS 5 and 6.
