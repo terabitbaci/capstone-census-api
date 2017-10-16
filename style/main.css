@@ -465,12 +465,35 @@ footer #back-to-top .fa-caret-square-o-up {
     }
 }
 
-.topnav li {
-    display: inline-block;
-}
-
-
-/*
+@media only screen and (min-width: 1024px) {
+    .intro {
+        background-color: lightpink;
+        width: 85%;
+    }
+    .headline1 {
+        font-size: 35px;
+        margin-left: 45px;
+    }
+    .headline2 {
+        font-size: 30px;
+    }
+    #search-form {
+        background-color: lightpink;
+        width: 40%;
+    }
+    .legend {
+        background-color: lightpink;
+        width: 40%;
+    }
+    .results-wrapper {
+        background-color: lightpink;
+        width: 50%;
+    }
+    .results-wrapper li.column {
+        background-color: lightblue;
+        width: 75%;
+    }
+    /*
     .topnav {
         overflow: hidden;
         background-color: #333;
@@ -497,9 +520,8 @@ footer #back-to-top .fa-caret-square-o-up {
         color: white;
     }
 */
-
-
 }
+
 
 /*
 
