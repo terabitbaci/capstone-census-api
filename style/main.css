@@ -499,184 +499,39 @@ footer #back-to-top .fa-caret-square-o-up {
 }
 
 @media only screen and (min-width: 1150px) {
+    body {
+        background: url("../images/dandylion5.png") no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
     main {
         max-width: 1150;
         margin: auto;
+    }
+    #bars-menu .fa-bars {
+        margin-right: 10%;
     }
     .intro {
         background-color: lightgreen;
         width: 85%;
     }
     .headline1 {
-        font-size: 35px;
+        font-size: 43px;
         margin-left: 45px;
     }
     .headline2 {
-        font-size: 30px;
+        font-size: 38px;
     }
     #search-form {
         background-color: lightgreen;
-        width: 40%;
     }
     .legend {
         background-color: lightgreen;
-        width: 37%;
     }
     .results-wrapper {
         background-color: lightgreen;
-        width: 46%;
     }
     .results-wrapper li.column {
         background-color: lightgreen;
-        width: 78%;
     }
 }
-
-
-/*
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-        display: none;
-    }
-
-    .topnav a {
-        display: inline-block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 4px 11px;
-        text-decoration: none;
-        font-size: 17px;
-        border-bottom: 1px solid lightyellow;
-    }
-
-    .topnav a:hover {
-        background-color: green;
-        color: black;
-    }
-
-    .topnav a.active {
-        background-color: blue;
-        color: white;
-    }
-*/
-
-
-}
-
-/*
-
-@media only screen and (max-width: 1460px) {
-    .headline1 {
-        font-size: 50px;
-    }
-    .headline2 {
-        font-size: 43px;
-    }
-}
-
-@media only screen and (max-width: 1310px) {
-    .logo {
-        margin-top: 9px;
-        margin-bottom: 15px;
-        height: 61px;
-    }
-    .headline1 {
-        font-size: 44px;
-        margin-left: 270px;
-    }
-    .headline2 {
-        font-size: 39px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .logo {
-        margin-top: 12px;
-        height: 50px;
-    }
-    .intro,
-    .results-wrapper {
-        width: 80%;
-    }
-    #search-form {
-        width: 60%;
-    }
-    .headline1 {
-        font-size: 39px;
-        margin-left: 263px;
-    }
-    .headline2 {
-        font-size: 34px;
-    }
-}
-
-@media only screen and (max-width: 1130px) {
-    .logo {
-        margin-top: 7px;
-        height: 46px;
-    }
-    .headline1 {
-        font-size: 34px;
-        margin-left: 270px;
-    }
-    .headline2 {
-        font-size: 29px;
-        margin-left: 15px;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .logo {
-        margin-top: 7px;
-        height: 41px;
-    }
-    .headline1 {
-        font-size: 31px;
-        margin-left: 230px;
-    }
-    .headline2 {
-        font-size: 26px;
-        margin-left: 14px;
-    }
-    .results-wrapper li.column {
-        width: 98%;
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 850px) {
-    .logo {
-        margin-top: 13px;
-        height: 52px;
-        margin-left: 86px;
-    }
-    .headline1 {
-        font-size: 31px;
-        margin-left: 282px;
-    }
-    .headline2 {
-        display: block;
-        font-size: 26px;
-        margin-left: 270px;
-        margin-top: -15pt;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .logo {
-        margin-top: 7px;
-        height: 52px;
-        margin-left: 86px;
-    }
-    .headline1 {
-        font-size: 25px;
-        margin-left: 259px;
-    }
-    .headline2 {
-        font-size: 20px;
-        margin-left: 256px;
-        margin-top: -8pt;
-    }
-}
-*/
