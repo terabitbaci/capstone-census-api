@@ -283,7 +283,6 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 480px) {
     .legend {
-        background-color: white;
         width: 85%;
     }
 }
@@ -294,7 +293,6 @@ footer #back-to-top .fa-caret-square-o-up {
         width: 65%;
     }
     .legend {
-        background-color: lightblue;
         width: 60%;
     }
     .results-wrapper {
@@ -340,7 +338,6 @@ footer #back-to-top .fa-caret-square-o-up {
         width: 60%;
     }
     .legend {
-        background-color: lightsalmon;
         width: 55%;
     }
     .results-wrapper {
@@ -355,7 +352,6 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 840px) {
     .intro {
-        background-color: cornflowerblue;
         width: 90%;
     }
     .logo {
@@ -382,7 +378,6 @@ footer #back-to-top .fa-caret-square-o-up {
         width: 50%;
     }
     .legend {
-        background-color: lightcoral;
         width: 45%;
     }
     .results-wrapper {
@@ -397,7 +392,6 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 960px) {
     .intro {
-        background-color: cornflowerblue;
         width: 90%;
     }
     .headline1 {
@@ -412,7 +406,6 @@ footer #back-to-top .fa-caret-square-o-up {
         width: 45%;
     }
     .legend {
-        background-color: lightsteelblue;
         width: 40%;
     }
     .results-wrapper {
@@ -441,7 +434,6 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 1024px) {
     .intro {
-        background-color: cornflowerblue;
         width: 85%;
     }
     .headlines {
@@ -459,7 +451,6 @@ footer #back-to-top .fa-caret-square-o-up {
         width: 40%;
     }
     .legend {
-        background-color: lightpink;
         width: 37%;
     }
     .results-wrapper {
@@ -485,7 +476,6 @@ footer #back-to-top .fa-caret-square-o-up {
         margin-right: auto;
     }
     .intro {
-        background-color: cornflowerblue;
         width: 85%;
     }
     .headline1 {
@@ -497,9 +487,6 @@ footer #back-to-top .fa-caret-square-o-up {
     }
     #search-form {
         background-color: cornflowerblue;
-    }
-    .legend {
-        background-color: lightgreen;
     }
     .results-wrapper {
         background-color: lightgreen;
