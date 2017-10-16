@@ -26,6 +26,7 @@ header {
     width: 100%;
     background-color: lightyellow;
     text-align: center;
+    position: relative;
 }
 
 .logo {
@@ -57,6 +58,7 @@ header {
     background-color: rgba(39, 112, 194, 0.62);
     /*  add display when layout is finished  */
     display: none;
+    text-align: center;
 }
 
 .topnav a {
@@ -67,7 +69,9 @@ header {
     padding: 4px;
     text-decoration: none;
     font-size: 14px;
-    border-bottom: 1px solid lightyellow;
+    border: 1px solid lightyellow;
+    border-top: none;
+    margin: 0;
     font-family: 'Martel', sans-serif;
 }
 
@@ -75,7 +79,6 @@ header {
     /*    display: inline-block;*/
     list-style: none;
     text-align: center;
-    border-bottom: 1px solid lightyellow;
     text-decoration: none;
     /*    width: 95%;*/
 }
@@ -422,7 +425,6 @@ footer #back-to-top .fa-caret-square-o-up {
     }
     .topnav {
         background-color: rgba(39, 112, 194, 0.62);
-        border-bottom: 1px solid lightyellow;
     }
     .topnav a {
         display: inline-block;
@@ -434,8 +436,6 @@ footer #back-to-top .fa-caret-square-o-up {
         font-size: 14px;
         font-family: 'Martel', sans-serif;
         list-style: none;
-        border-bottom: none;
-        border-right: 1px solid lightyellow;
     }
 }
 
