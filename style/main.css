@@ -84,32 +84,6 @@ header {
     display: inline-block;
 }
 
-
-/*
-.topnav li::after {
-    content: "|";
-    margin-left: 5pt;
-}
-*/
-
-
-/*
-.horiz-tools {
-    overflow: hidden;
-    width: 100%;
-    display: block;
-    color: lightyellow;
-    text-align: center;
-    vertical-align: middle;
-    padding: 4px;
-    text-decoration: none;
-    font-size: 12px;
-    border-bottom: 1px solid lightyellow;
-    border-right: 1px solid lightyellow;
-    font-family: 'Martel', sans-serif;
-}
-*/
-
 .intro {
     margin-top: 40px;
     margin-left: auto;
@@ -275,7 +249,7 @@ footer p {
     margin-top: 25px;
     font-family: Courgette;
     font-size: 16px;
-    border-top: 1px solid aliceblue;
+    /*    border-top: 1px solid aliceblue;*/
     padding-top: 15px;
     bottom: 0;
 }
@@ -499,17 +473,31 @@ footer #back-to-top .fa-caret-square-o-up {
 }
 
 @media only screen and (min-width: 1150px) {
-    body {
+    /*body {
         background: url("../images/dandylion5.png") no-repeat;
+
         background-size: cover;
         background-attachment: fixed;
-    }
-    main {
-        max-width: 1150;
+*/
+    body {
+        max-width: 1150px;
         margin: auto;
     }
+    /*
     #bars-menu .fa-bars {
-        margin-right: 10%;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: crimson;
+}
+    */
+    #bars-menu .fa-bars {
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+        margin-left: 20px;
+        margin-right: auto;
     }
     .intro {
         background-color: lightgreen;
