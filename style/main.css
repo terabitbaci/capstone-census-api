@@ -440,7 +440,7 @@ footer #back-to-top .fa-caret-square-o-up {
     }
     .results-wrapper {
         background-color: lightsteelblue;
-        width: 55%;
+        width: 50%;
     }
     .results-wrapper li.column {
         background-color: lightblue;
@@ -458,20 +458,11 @@ footer #back-to-top .fa-caret-square-o-up {
         padding: 4px 18px;
         text-decoration: none;
         font-size: 14px;
-        /*        border-bottom: 1px solid lightyellow;*/
         font-family: 'Martel', sans-serif;
         list-style: none;
         border-bottom: none;
         border-right: 1px solid lightyellow;
     }
-    /*
-    .topnav ul {
-        display: inline-block;
-        list-style: none;
-        text-align: center;
-        /*        border-bottom: 1px solid lightyellow;*/
-    text-decoration: none;
-    /*    width: 95%;*/
 }
 
 .topnav li {
