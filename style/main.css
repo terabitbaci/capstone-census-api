@@ -290,7 +290,7 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 600px) {
     #search-form {
-        background-color: lightblue;
+        background-color: cornflowerblue;
         width: 65%;
     }
     .legend {
@@ -336,7 +336,7 @@ footer #back-to-top .fa-caret-square-o-up {
         margin-left: 76px;
     }
     #search-form {
-        background-color: lightsalmon;
+        background-color: cornflowerblue;
         width: 60%;
     }
     .legend {
@@ -355,7 +355,7 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 840px) {
     .intro {
-        background-color: lightcoral;
+        background-color: cornflowerblue;
         width: 90%;
     }
     .logo {
@@ -378,7 +378,7 @@ footer #back-to-top .fa-caret-square-o-up {
         display: inline-block;
     }
     #search-form {
-        background-color: lightcoral;
+        background-color: cornflowerblue;
         width: 50%;
     }
     .legend {
@@ -397,7 +397,7 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 960px) {
     .intro {
-        background-color: lightsteelblue;
+        background-color: cornflowerblue;
         width: 90%;
     }
     .headline1 {
@@ -408,7 +408,7 @@ footer #back-to-top .fa-caret-square-o-up {
         font-size: 30px;
     }
     #search-form {
-        background-color: lightsteelblue;
+        background-color: cornflowerblue;
         width: 45%;
     }
     .legend {
@@ -441,7 +441,7 @@ footer #back-to-top .fa-caret-square-o-up {
 
 @media only screen and (min-width: 1024px) {
     .intro {
-        background-color: lightpink;
+        background-color: cornflowerblue;
         width: 85%;
     }
     .headlines {
@@ -455,7 +455,7 @@ footer #back-to-top .fa-caret-square-o-up {
         font-size: 34px;
     }
     #search-form {
-        background-color: lightpink;
+        background-color: cornflowerblue;
         width: 40%;
     }
     .legend {
@@ -473,25 +473,10 @@ footer #back-to-top .fa-caret-square-o-up {
 }
 
 @media only screen and (min-width: 1150px) {
-    /*body {
-        background: url("../images/dandylion5.png") no-repeat;
-
-        background-size: cover;
-        background-attachment: fixed;
-*/
     body {
         max-width: 1150px;
         margin: auto;
     }
-    /*
-    #bars-menu .fa-bars {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    color: crimson;
-}
-    */
     #bars-menu .fa-bars {
         display: inline-block;
         position: absolute;
@@ -500,7 +485,7 @@ footer #back-to-top .fa-caret-square-o-up {
         margin-right: auto;
     }
     .intro {
-        background-color: lightgreen;
+        background-color: cornflowerblue;
         width: 85%;
     }
     .headline1 {
@@ -511,7 +496,7 @@ footer #back-to-top .fa-caret-square-o-up {
         font-size: 38px;
     }
     #search-form {
-        background-color: lightgreen;
+        background-color: cornflowerblue;
     }
     .legend {
         background-color: lightgreen;
