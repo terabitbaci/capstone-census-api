@@ -110,32 +110,6 @@ header {
 }
 */
 
-.topnav-horiz {
-    overflow: hidden;
-    background-color: #333;
-    display: none;
-}
-
-.topnav-horiz a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 4px 11px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: 1px solid lightyellow;
-}
-
-.topnav-horiz a:hover {
-    background-color: green;
-    color: black;
-}
-
-.topnav-horiz a.active {
-    background-color: blue;
-    color: white;
-}
-
 .intro {
     margin-top: 40px;
     margin-left: auto;
@@ -472,8 +446,69 @@ footer #back-to-top .fa-caret-square-o-up {
         background-color: lightblue;
         width: 80%;
     }
+    .topnav {
+        background-color: rgba(39, 112, 194, 0.62);
+        border-bottom: 1px solid lightyellow;
+    }
+    .topnav a {
+        display: inline-block;
+        color: lightyellow;
+        text-align: center;
+        vertical-align: middle;
+        padding: 4px 18px;
+        text-decoration: none;
+        font-size: 14px;
+        /*        border-bottom: 1px solid lightyellow;*/
+        font-family: 'Martel', sans-serif;
+        list-style: none;
+        border-bottom: none;
+        border-right: 1px solid lightyellow;
+    }
+    /*
+    .topnav ul {
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        /*        border-bottom: 1px solid lightyellow;*/
+    text-decoration: none;
+    /*    width: 95%;*/
 }
 
+.topnav li {
+    display: inline-block;
+}
+
+
+/*
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        display: none;
+    }
+
+    .topnav a {
+        display: inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 4px 11px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 1px solid lightyellow;
+    }
+
+    .topnav a:hover {
+        background-color: green;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: blue;
+        color: white;
+    }
+*/
+
+
+}
 
 /*
 
