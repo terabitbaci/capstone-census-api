@@ -33,3 +33,7 @@ You can access the U.S.Migration Stats for Your County web page at https://terab
 * API's have been aquired from Songkick (http://www.songkick.com/developer/upcoming-events-for-artist) to get the JSON response to provide information on upcoming shows.
 *Google Maps (https://developers.google.com/maps/documentation/embed/guide) required an Embeded API to provide an interactive map with an HTTP request.
 * Using the JSON response from Songkick, HTML was populated for each search result.
+
+## Development Roadmap
+This is v1.0 of the app, but future enhancements are expected to include:
+* adding highcharts to display relevant data from the api
