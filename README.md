@@ -1,6 +1,6 @@
 
 # U.S. Migration Stats for Your County
-Thinkful (https://www.thinkful.com/) API portfolio project - a responsive web page to help the user understand the population migration flow into and out of their community. The source of the data is the U.S. Census Bureau, which conducts...
+Thinkful (https://www.thinkful.com/) API portfolio project - a responsive website to help the user understand the population migration flow into and out of their community. The source of the data is the U.S. Census Bureau, which conducts the American Community Survey (ACS) on an ongoing basis at the county and neighborhood level.
 
 ![landing-page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/landing-page.png)
 ![landing-page-with-results](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/landing-page-with-results.png)
@@ -11,26 +11,26 @@ In this day when immigration is often the leading news story, it would be helpfu
 
 
 ## Use Case
-Why is this app useful? Migration information for any given county in the United States is buried in the U.S. Census Bureau website. Publications by the bureau are general and are country-wide. This web page
+Why is this app useful? Migration information for any given county in the United States is buried in the U.S. Census Bureau database. Publications by the bureau are general and are country-wide. This web page helps the user access data at the county level, and will help them see the actual migration flows for their community.
 
 ## UX
 
-Initial wireframes for the U.S.Migration Stats for Your County web page can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
+Initial wireframes for the U.S.Migration Stats for Your County website can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
 
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1.jpg)
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2.jpg)
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3.JPG)
 
-The app is responsive and was designed to work on mobile, tablet and desktop screens.
+The app is responsive and is designed to work on mobile, tablet and desktop screens.
 
 ## Live Site
 You can access the U.S.Migration Stats for Your County web page at https://terabitbaci.github.io/capstone-census-api/
 
 ## Technical
 * The app is built using HTML5, CSS3 and JS 5 and 6.
-* The app is fully responsive, adapting for mobile, table and desktop viewports.
-* The app is interactive with animation and a popup window upon clicking the Upbeat Atlas logo and search button respectively.
-* API's have been aquired from Songkick (http://www.songkick.com/developer/upcoming-events-for-artist) to get the JSON response to provide information on upcoming shows.
+* The app is fully responsive, adapting for mobile and tablet viewports in portrait and landscape, and desktop viewports.
+* The app is interactive with options for the user to select any one of 3142 U.S. counties and county equivalents, and search for the statistics for that locality.
+* APIs are aquired from the American Community Survey (ACS) by the U.S. Census Bureau (https://api.census.gov/data/2015/acs/) to get the JSON response to provide migration data.
 *Google Maps (https://developers.google.com/maps/documentation/embed/guide) required an Embeded API to provide an interactive map with an HTTP request.
 * Using the JSON response from Songkick, HTML was populated for each search result.
 
