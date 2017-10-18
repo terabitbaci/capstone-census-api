@@ -26,9 +26,14 @@ The app is responsive and is designed to work on mobile, tablet and desktop scre
 ## Live Site
 You can access the U.S.Migration Stats for Your County web page at https://terabitbaci.github.io/capstone-census-api/
 
+![mobile landing page] (https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-landing-page.png)
+mobile with nav
+mobile with results
+
+
 ## Technical
-* The app is built using HTML5, CSS3 and JS 5 and 6.
-* The app is fully responsive, adapting for mobile and tablet viewports in portrait and landscape, and desktop viewports.
+* The app is built using HTML, CSS and JS.
+* The app is fully responsive, adapting for mobile, tablet and desktop viewports.
 * The app is interactive with options for the user to select any one of 3142 U.S. counties and county equivalents, and search for the statistics for that locality.
 * APIs are aquired from the American Community Survey (ACS) by the U.S. Census Bureau (https://api.census.gov/data/2015/acs/) to get the JSON response to provide migration data.
 *Google Maps (https://developers.google.com/maps/documentation/embed/guide) required an Embeded API to provide an interactive map with an HTTP request.
