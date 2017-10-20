@@ -25,7 +25,7 @@ The app is responsive and is designed to work on mobile, tablet and desktop view
 
 
 ![mobile landing page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-landing-page-half.png)
-![mobile landing page with navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-with-nav.png)
+![mobile landing page with navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-with-nav-half-1.png)
 ![tablet with results and horizontal navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/tablet-with-horiz-nav-and-results.png)
 
 
