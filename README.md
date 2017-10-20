@@ -15,8 +15,8 @@ Why is this app useful? Migration information for any given county in the United
 
 Hand-drawn wireframes for the U.S.Migration Stats for Your County website can be seen below.
 
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-sm.jpg)          ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-sm.jpg)
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3-sm.jpg)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-small.jpg)          ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-small.jpg)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3-small.jpg)
 
 
 ## Live Site
