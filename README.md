@@ -17,8 +17,8 @@ Why is this app useful? Migration information for any given county in the United
 
 Hand-drawn wireframes for the U.S.Migration Stats for Your County website can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
 
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-small.jpg)                  ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-small.jpg)
-                                                      ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3-small.JPG)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-sm.jpg)                  ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-sm.jpg)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3-sm.JPG)
 
 The app is responsive and is designed to work on mobile, tablet and desktop viewports.
 
@@ -35,8 +35,7 @@ You can access the U.S.Migration Stats for Your County website at https://terabi
 * The app is fully responsive, adapting for mobile, tablet and desktop viewports.
 * The app is interactive with options for the user to select any one of 3142 U.S. counties and county equivalents, and search for the statistics for that locality.
 * APIs are aquired from the American Community Survey (ACS) by the U.S. Census Bureau (https://api.census.gov/data/2015/acs/) to get the JSON response to provide migration data.
-*Google Maps (https://developers.google.com/maps/documentation/embed/guide) required an Embeded API to provide an interactive map with an HTTP request.
-* Using the JSON response from Songkick, HTML was populated for each search result.
+
 
 ## Development Roadmap
 This is v1.0 of the app, but future enhancements are expected to include:
