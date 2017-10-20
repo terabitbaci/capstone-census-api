@@ -6,7 +6,7 @@ Thinkful (https://www.thinkful.com/) API portfolio project - a responsive websit
 ![landing-page-with-results](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/landing-page-with-results.png)
 
 ## Introduction
-In this day when immigration is often the leading news story, it would be helpful for people to see that migrations are a part of the human experience, that most communities are in flux, and that the migrating population in the United States is of every origin and background. The user of this webpage is curious about where the new people in their community came from, where their old neighbors moved to, and the corresponding change in population size.
+In this day when immigration is often the leading news story, it may be helpful for people to see that migrations are a part of the human experience, that most communities are in flux, and that the migrating population in the United States is of every origin and background. The user of this webpage is curious about where the new people in their community came from, where their old neighbors moved to, and the corresponding change in population size.
 
 
 
@@ -15,16 +15,16 @@ Why is this app useful? Migration information for any given county in the United
 
 ## UX
 
-Initial wireframes for the U.S.Migration Stats for Your County website can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
+Hand-drawn wireframes for the U.S.Migration Stats for Your County website can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
 
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1.jpg)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-small.jpg)
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2.jpg)
 ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3.JPG)
 
-The app is responsive and is designed to work on mobile, tablet and desktop screens.
+The app is responsive and is designed to work on mobile, tablet and desktop viewports.
 
 ## Live Site
-You can access the U.S.Migration Stats for Your County web page at https://terabitbaci.github.io/capstone-census-api/
+You can access the U.S.Migration Stats for Your County website at https://terabitbaci.github.io/capstone-census-api/
 
 ![mobile landing page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-landing-page.png)
 ![mobile landing page with navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-with-nav.png)
