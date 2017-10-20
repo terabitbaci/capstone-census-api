@@ -15,18 +15,17 @@ Why is this app useful? Migration information for any given county in the United
 
 Hand-drawn wireframes for the U.S.Migration Stats for Your County website can be seen below.
 
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-sm.jpg)
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-sm.jpg)
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3-sm.JPG)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-s.jpg)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-s.jpg)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3-s.JPG)
 
 
 ## Live Site
 You can access the U.S.Migration Stats for Your County website at https://terabitbaci.github.io/capstone-census-api/
-The app is responsive and is designed to work on mobile, tablet and desktop viewports.
+The app is responsive and is designed to work on mobile, tablet and desktop viewports. Following are mobile (landing page), mobile (with vertical navigation), and tablet (with horizontal navigation and results).
 
 
 ![mobile landing page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-landing-page.png)
-<br>
 ![mobile landing page with navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-with-nav.png)
 ![tablet with results and horizontal navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/tablet-with-horiz-nav-and-results.png)
 
@@ -40,6 +39,6 @@ The app is responsive and is designed to work on mobile, tablet and desktop view
 
 ## Development Roadmap
 This is v1.0 of the app, but future enhancements are expected to include:
-* adding highcharts to display relevant data from the api - Here is a mockup
+* adding highcharts to display relevant data from the api. The following is a mockup.
 ![Highcharts demo](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/Highcharts-demo.png)
 
