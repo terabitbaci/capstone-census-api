@@ -24,8 +24,8 @@ You can access the U.S.Migration Stats for Your County website at https://terabi
 The app is responsive and is designed to work on mobile, tablet and desktop viewports. Following are mobile (landing page), mobile (with vertical navigation), and tablet (with horizontal navigation and results).
 
 
-![mobile landing page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-landing-page.png)
-![mobile landing page with navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-with-nav.png)
+![mobile landing page](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-landing-page-half.png)
+![mobile landing page with navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/mobile-with-nav-half.png)
 ![tablet with results and horizontal navigation](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/tablet-with-horiz-nav-and-results.png)
 
 
