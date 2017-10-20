@@ -17,8 +17,8 @@ Why is this app useful? Migration information for any given county in the United
 
 Hand-drawn wireframes for the U.S.Migration Stats for Your County website can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
 
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-small.jpg)  ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-small.jpg)
-![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3.JPG)
+![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-1-small.jpg)                  ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-2-small.jpg)
+                                                      ![Initial Wireframes](https://github.com/terabitbaci/capstone-census-api/blob/master/user-stories-and-wireframes/screen-3-small.JPG)
 
 The app is responsive and is designed to work on mobile, tablet and desktop viewports.
 
