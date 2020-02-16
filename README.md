@@ -1,6 +1,6 @@
 
 # U.S. Migration Stats for Your County
-Thinkful (https://www.thinkful.com/) API portfolio project - a responsive website to help the user understand the population migration flow into and out of their community. The source of the data is the U.S. Census Bureau, which conducts the American Community Survey (ACS) on an ongoing basis at the county and neighborhood level.
+This was my first API project. It is a responsive website to help the user understand the population migration flow into and out of their community. The source of the data is the U.S. Census Bureau, which conducts the American Community Survey (ACS) on an ongoing basis at the county and neighborhood level.
 
 
 ## Introduction
